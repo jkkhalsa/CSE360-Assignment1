@@ -28,7 +28,7 @@ public class GitDemo {
         
         }
         for(int i = 1; i <= num; ++i){
-            newNumber = newNumber * i;
+            factorialNumber = factorialNumber * i;
         }
         
         return factorialNumber;
@@ -45,10 +45,10 @@ public class GitDemo {
         
         while( num != 0 ) {
             double temp = num % 10;
-            factorialNumber = factorialNumber * 10 + temp;
+            reverseNum = reverseNum * 10 + temp;
             num /= 10;
         
-        return newNumber;
+        return reverseNum;
     }
     
 }
